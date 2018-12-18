@@ -1,0 +1,40 @@
+{
+  "name": "scala_katas",
+  "version": "0.0.1",
+  "description": "JavaScript implementation of scala katas",
+  "main": "src/main/js/index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryexley/Scala_Katas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryexley/Scala_Katas/issues"
+  },
+  "homepage": "https://github.com/ryexley/Scala_Katas#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.6.0",
+    "regenerator-runtime": "^0.13.1"
+  },
+  "jest": {
+    "testMatch": [
+      "**/*.spec.js"
+    ],
+    "coverageReporters": [
+      "text-summary",
+      "lcov"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "testEnvironment": "node",
+    "clearMocks": true
+  }
+}
